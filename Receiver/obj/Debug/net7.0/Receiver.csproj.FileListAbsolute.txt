@@ -1,0 +1,17 @@
+/home/igor/COMP/CSharpRabbitmq/Receiver/bin/Debug/net7.0/Receiver
+/home/igor/COMP/CSharpRabbitmq/Receiver/bin/Debug/net7.0/Receiver.deps.json
+/home/igor/COMP/CSharpRabbitmq/Receiver/bin/Debug/net7.0/Receiver.runtimeconfig.json
+/home/igor/COMP/CSharpRabbitmq/Receiver/bin/Debug/net7.0/Receiver.dll
+/home/igor/COMP/CSharpRabbitmq/Receiver/bin/Debug/net7.0/Receiver.pdb
+/home/igor/COMP/CSharpRabbitmq/Receiver/bin/Debug/net7.0/RabbitMQ.Client.dll
+/home/igor/COMP/CSharpRabbitmq/Receiver/obj/Debug/net7.0/Receiver.csproj.AssemblyReference.cache
+/home/igor/COMP/CSharpRabbitmq/Receiver/obj/Debug/net7.0/Receiver.GeneratedMSBuildEditorConfig.editorconfig
+/home/igor/COMP/CSharpRabbitmq/Receiver/obj/Debug/net7.0/Receiver.AssemblyInfoInputs.cache
+/home/igor/COMP/CSharpRabbitmq/Receiver/obj/Debug/net7.0/Receiver.AssemblyInfo.cs
+/home/igor/COMP/CSharpRabbitmq/Receiver/obj/Debug/net7.0/Receiver.csproj.CoreCompileInputs.cache
+/home/igor/COMP/CSharpRabbitmq/Receiver/obj/Debug/net7.0/Receiver.csproj.CopyComplete
+/home/igor/COMP/CSharpRabbitmq/Receiver/obj/Debug/net7.0/Receiver.dll
+/home/igor/COMP/CSharpRabbitmq/Receiver/obj/Debug/net7.0/refint/Receiver.dll
+/home/igor/COMP/CSharpRabbitmq/Receiver/obj/Debug/net7.0/Receiver.pdb
+/home/igor/COMP/CSharpRabbitmq/Receiver/obj/Debug/net7.0/Receiver.genruntimeconfig.cache
+/home/igor/COMP/CSharpRabbitmq/Receiver/obj/Debug/net7.0/ref/Receiver.dll
