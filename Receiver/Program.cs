@@ -1,4 +1,6 @@
 ﻿using System.Text;
+using System.Text.Json;
+using Newtonsoft.Json;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
@@ -33,8 +35,9 @@ consumer.Received += (sender, args)=>{
     byte[] body = args.Body.ToArray();
     //le esses bytes e faz o cast para string
     string message = Encoding.UTF8.GetString(body);
-
-    Console.WriteLine($"Mensagem recebida: {message}");
+    var objetoDeserializado = JsonConvert.DeserializeObject<BookView>(message);
+    string messageSerialized = JsonConvert.SerializeObject(objetoDeserializado);
+    Console.WriteLine($"Mensagem recebida: {messageSerialized}");
     //Avisa para o RabbitMQ que essa mensagem foi propriamente tratada
     channel.BasicAck(args.DeliveryTag, false);
 };

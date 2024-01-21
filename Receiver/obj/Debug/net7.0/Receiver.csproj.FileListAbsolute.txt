@@ -15,3 +15,4 @@
 /home/igor/COMP/CSharpRabbitmq/Receiver/obj/Debug/net7.0/Receiver.pdb
 /home/igor/COMP/CSharpRabbitmq/Receiver/obj/Debug/net7.0/Receiver.genruntimeconfig.cache
 /home/igor/COMP/CSharpRabbitmq/Receiver/obj/Debug/net7.0/ref/Receiver.dll
+/home/igor/COMP/CSharpRabbitmq/Receiver/bin/Debug/net7.0/Newtonsoft.Json.dll
