@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Text.Json;
+using System.Text.Json.Nodes;
 using RabbitMQ.Client;
 
 
@@ -22,8 +24,13 @@ channel.ExchangeDeclare(exchangeName, ExchangeType.Direct);
 channel.QueueDeclare(queueName,false,false,false,null);
 //Aqui, faz a ligação da queue com o exchange, por meio da chave.
 channel.QueueBind(queueName,exchangeName,routingKey,null);
+
+Book testBook = new Book("Percy Jackson", "um livro sobre deuses");
+
+string teste = JsonSerializer.Serialize(testBook);
+
 //transforma a string pra uma array de bytes pq é esse o padrão de envio.
-byte[] messageBodyBytes = System.Text.Encoding.UTF8.GetBytes("Hello, world!");
+byte[] messageBodyBytes = System.Text.Encoding.UTF8.GetBytes(teste);
 //Envia a mensagem pro Exchange declarado acima com a chave e a mensagem em bytes.
 channel.BasicPublish(exchangeName, routingKey, null, messageBodyBytes);
 
